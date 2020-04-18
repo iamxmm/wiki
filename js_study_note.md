@@ -8,7 +8,8 @@
     ...
    </script>
 ```
-   **type 默认为 text/javascript, 那还支持其他的哪些type? 有何用处**
+
+* type 默认为 text/javascript, 那还支持其他的哪些type? 有何用处
 ---------------------------------------------------------------------------------------------------------------------------
 2. 如何编写JavaScript
 可以用任何文本编辑器来编写JavaScript代码。这里我们推荐以下几种文本编辑器：
@@ -87,7 +88,6 @@ Notepad++ 也是免费的文本编辑器，但仅限Windows下使用。
 	用函数作为参数 （由此有了高阶函数的概念）
 		Array.map and Array.reduce 函数的使用
 		小明希望利用map()把字符串变成整数，他写的代码很简洁：
-```
 		'use strict';
 
 		var arr = ['1', '2', '3'];
@@ -95,7 +95,7 @@ Notepad++ 也是免费的文本编辑器，但仅限Windows下使用。
 		r = arr.map(parseInt);
 		console.log(r); // result is:　1, NaN, NaN
 		reason: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
-```
+
 14. 闭包
 	在面向对象的程序设计语言里，比如Java和C++，要在对象内部封装一个私有变量，可以用private修饰一个成员变量。
 	在没有class机制，只有函数的语言里，借助闭包，同样可以封装一个私有变量。
